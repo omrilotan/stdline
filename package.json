@@ -1,0 +1,25 @@
+{
+  "name": "stdline",
+  "version": "1.0.0",
+  "description": "💬 Update current STDOUT stream",
+  "keywords": [
+    "stdout",
+    "printline",
+    "console.clear",
+    "cli",
+    "message",
+    "update",
+    "💬"
+  ],
+  "author": "omrilotan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omrilotan/stdline.git"
+  },
+  "homepage": "https://omrilotan.com/stdline/",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example"
+  }
+}
