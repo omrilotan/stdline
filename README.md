@@ -26,3 +26,10 @@ const { clear } = require('stdline');
 
 clear();
 ```
+
+Wipe screen
+```js
+const { wipe } = require('stdline');
+
+wipe();
+```

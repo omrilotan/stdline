@@ -6,7 +6,7 @@ const {
 
 const DELAY = 40;
 
-clear();
+wipe();
 
 console.log('processing:');
 

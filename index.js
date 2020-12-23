@@ -32,5 +32,13 @@ exports.end = function end(message = '') {
  */
 exports.clear = function clear() {
 	cursorTo(stdout, 0, 0);
+}
+
+/**
+ * Clear current STDOUT stream and clear screen down
+ * no return value
+ */
+exports.wipe = function clear() {
+	cursorTo(stdout, 0, 0);
 	clearScreenDown(stdout);
 }
