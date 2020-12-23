@@ -31,7 +31,8 @@ exports.end = function end(message = '') {
  * no return value
  */
 exports.clear = function clear() {
-	cursorTo(stdout, 0, 0);
+	clearLine(stdout, 0); // Clear current STDOUT line
+	cursorTo(stdout, 0); // Place cursor at the start
 }
 
 /**
